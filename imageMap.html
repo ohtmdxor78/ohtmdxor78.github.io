@@ -1,0 +1,15 @@
+<!doctype html> <!-- imageMap -->
+<html><head><meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>HTML클라이언트 사이드 이미지맵 실습</title>
+</head>
+<body>
+  <b>그림을 클릭하세요</b><br/>
+  <img src="./images/korea.gif" border=0 usemap="#area">
+  <map name = "area">
+    <area shape="poly"coords="115,25,95,54,120,71,128,82,137,109,195,115,131,25,112,38,116,25" href="kangwon.html" alt="강원">
+    <area shape="poly" coords="61,265,68,270,93,267,103,253,95,255,71,255" href="jeju.html" alt="제주">
+    <area shape="default" noref>
+  </map>
+</body>
+</html>
