@@ -4,13 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
     <style>
-
+    html{background-color : yellow;}
+    h3{background-color:red;color:white;}
     header,nav,section,article,aside,footer
     {border: 1px solid gray; margin: 5px;padding: 8px;width: 1000px;}
-    header img{width:990px;height: 200px}
+    header img{width:500px;height: 400px;}
     section{width: 750px;float: left;}
     section section {width: 725px;float:left;}
-    section section video {height: 320;width:200;}
+    section section section {width:700px;float:left;}
+    section section section section {width:675px;float:left;}
     aside{width: 221px;float:left;line-height: 30px;}
     nav ul{margin: 0;padding: 0;}
     nav ul li{display: inline;margin: 5px;}
@@ -37,7 +39,7 @@
   <body>
     <header>
       <h1>포트폴리오</h1>
-      <img src="./images/cat.png" alt="냥이">
+      <img src="./야구.jpg" alt="야구">
     </header>
     <nav>
       <ul>
@@ -49,24 +51,26 @@
     </nav>
     <section> <!--main-->
       <section>
-        <h3 id="chapter1">자기소개</h3>
+        <h3>자기소개</h3>
         <p>안녕하세요 컴퓨터 공학과 20131510 오승택 입니다.
              저는 대성고등학교를 졸업하고 대전대학교로 입학을 했습니다. 
              취미는 만화책을 보는 것과 야구 입니다. 야구는 하는것과 보는것 둘다 좋아합니다.</p>
       </section>
 
-      <section> <h3 id="chapter2">수강정리</h3>
+      <section> <h3>수강정리</h3>
       <p>HTML5에 대해서 배우고 있습니다.
            처음에는 Github 가입부터 시작해서 여러가지 용어를 배우고 있습니다.
            매일매일이 타자치는것과 오류찾는것의 연속이지만 타이핑 속도도 조금씩 늘고 있어서
            괜찮은 것 같습니다.</p>
-      <section> <h3 id="chapter3">미래계획</h3>
+      
+       <section> <h3>미래계획</h3>
         <p>일단 저의 가까운 미래계획에 대해서 설명을 하겠습니다.
              저는 지금 알바와 함께 학업을 병행하고 있습니다.
              그 모은돈으로 비행기 값을 벌어서 유럽쪽으로 가서 적게는 3개월 길게는 6개월 정도를
              그곳에서 살면서 경험을 해보고 싶어서 준비를 하고 있습니다.
              최종적으로는 외국에서 사는게 저의 여러 목표 중 하나 입니다.</p>
-      <section> <h3 id="chapter4">관심사항</h3>
+
+      <section> <h3>관심사항</h3>
         <p>저는 평소에 야구에 관심이 많습니다.
              가장 좋아하는 팀은 KIA타이거즈 입니다.
              대전사람은 한화이글스를 좋아하는거 아냐 라는 말도 있지만
@@ -76,27 +80,7 @@
              어렸을때 부터 만화책 읽는 것을 좋아해서 평소에도 시간이 남거나 여유가 있으면
              만화책을 보고 있습니다.
              요즘은 바빠서 볼 시간이 없지만 그럴때는 날 잡아서 몰아서 보고 있습니다.</p>
-      <table>
-          <tr>
-            <th>이동주소</th><th>사이트명</th><th>설명</th>
-          </tr>
-          <tr>
-            <td>구글</td><td><a href="http://www.naver.com">네이버</a></td><td>네이버</td>
-          </tr>
-          <tr>
-            <td>사이트다른문서</td><td><a href="anchor2.html">anchor2.html로 이동</a></td><td>anchor2</td>
-          </tr>
-          <tr>
-            <td>제1장</td><td><a href="#chapter1">제1장이동(북마크이동)</a></td><td>제1장</td>
-          </tr></table>
       </section>
     </section> <!-- main -->
-    <aside>
-      <ul>
-        <li><a href="https://www.google.com" target="_blank"><img src="./images/GOOGLE+.png" alt="google+"></a></li>
-        <li><a href="https://www.facebook.com" target="_blank"><img src="./images/facebook.png" alt="facebook"></a></li>
-        <li><a href="https://www.twitter.com" target="_blank"><img src="./images/jjeck.png" alt="짹짹이"></a></li>
-      </ul>
-    </aside>
   </body>
 </html>
